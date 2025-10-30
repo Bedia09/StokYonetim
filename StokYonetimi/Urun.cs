@@ -8,20 +8,20 @@ namespace StokYonetimi
 {
     public class Urun
     {
-        private int stokAdedi;
+        private int stokMiktari;
         public int Id { get; set; }
         public string Ad { get; set; }
         public decimal Fiyat { get; set; }
 
-        public int StokAdedi
+        public int StokMiktari
         {
-            get { return stokAdedi; }
+            get { return stokMiktari; }
             set
             {
                 if (value < 0)
                     Console.WriteLine("Stok adedi negatif bir değer olamaz.");
                 else
-                    stokAdedi = value;
+                    stokMiktari = value;
 
             }
         }
@@ -30,10 +30,18 @@ namespace StokYonetimi
             Id = id;
             Ad = ad;
             Fiyat = fiyat;
-            StokAdedi = stok;
+            StokMiktari = stok;
         }
-        
-
-        
+        public void StokGuncelle (int miktar)
+        {
+            if (StokMiktari+miktar<0)
+                Console.WriteLine("Yetersiz stok");
+            else
+                StokMiktari = miktar;
+        }
+        public override string ToString()
+        {
+            return Id+ "-" + Ad + " | " + Fiyat + "₺ | Stok:" + StokMiktari;
+        }  
     }
 }
