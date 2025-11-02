@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StokYonetimi
 {
-    internal class Kategori
+    public class Kategori
     {
         public int Id { get; set; }
         public string Ad { get; set; }
