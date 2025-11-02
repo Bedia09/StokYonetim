@@ -1,7 +1,6 @@
 # Stok Yönetim Sistemi  
 Bu proje market veya depolarda ürün, kategori ve stok işlemlerini yönetmek için geliştirilmiştir. Tüm bunları OOP kavramlarını kullanrak geliştirmek amaçlanmıştır.
-
-# Urun, Kategori, ve StokYonetimi olmak üzere 3 ayrı sınıf oluşturulmuştur.
+Urun, Kategori, ve StokYonetimi olmak üzere 3 ayrı sınıf oluşturulmuştur.
 
 # Urun.cs; 
 Id, Ad, Fiyat ve StokMiktarı propertyleri oluşturulmuş, negatif stoklar engellenmiştir. 
