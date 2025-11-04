@@ -41,7 +41,7 @@ namespace StokYonetimi
         }
         public override string ToString()
         {
-            return Id+ "-" + Ad + " | " + Fiyat + "₺ | Stok:" + StokMiktari;
+            return Id + " - " + Ad + " - Fiyat: " + Fiyat + " - Stok:" + StokMiktari;
         }  
     }
 }

@@ -16,7 +16,7 @@ namespace StokYonetimi
         public void KategoriEkle (Kategori kategori)
         {
             Kategoriler.Add(kategori);
-            Console.WriteLine(kategori.Ad + "kategorsisi eklendi.");
+            Console.WriteLine(kategori.Ad + " kategorisi eklendi.");
         }
         public void TumStokListele()
         {
