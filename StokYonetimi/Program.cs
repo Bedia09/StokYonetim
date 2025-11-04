@@ -21,6 +21,13 @@ namespace StokYonetimi
             kirtasiyeKategori.UrunEkle (silgi);
             kirtasiyeKategori.UrunEkle (defter);
 
+            stok.KategoriEkle (kirtasiyeKategori);
+            stok.TumStokListele();
+
+            Console.WriteLine("\nStok güncelleme:");
+            kalem.StokGuncelle(-5);
+            Console.WriteLine(kalem.ToString());
+
         }
     }
 }
