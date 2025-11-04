@@ -6,7 +6,9 @@ Urun, Kategori, ve StokYonetimi olmak üzere 3 ayrı sınıf oluşturulmuştur.
 Id, Ad, Fiyat ve StokMiktarı propertyleri oluşturulmuş, negatif stoklar engellenmiştir. 
 StokGuncelle metoduyla stok miktarı artırılır veya azaltılır.
 ToString metoduyla ise ürün bilgisi ekrana yazdırılır.
-<img width="1031" height="705" alt="urun" src="https://github.com/user-attachments/assets/f6b9cc56-ec66-4eef-8ec7-19c5e6b73b0c" />
+
+<img width="765" height="705" alt="urun" src="https://github.com/user-attachments/assets/1bfb1bf6-f382-4d6e-bb68-aa3d3578758a" />
+
 
 
 🟣 # Kategori.cs;
@@ -34,6 +36,11 @@ TumStokListele metoduyla kategori ve ürünlerin listelenmesi sağlandı.
 StokGuncelle metodu kullanılarak kalem 5 azaltıldı.
 
 <img width="623" height="520" alt="program" src="https://github.com/user-attachments/assets/a9aed71c-65ff-4863-abfe-def71c4714f3" />
+
+⚪ # Konsol Çıktısı;
+
+<img width="1103" height="613" alt="ekran" src="https://github.com/user-attachments/assets/07671c65-a4fe-4ae0-b619-b176d003c087" />
+
 
 
 
