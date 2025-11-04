@@ -22,6 +22,9 @@ Birden fazla kategori ekleyebilmek için List<Kategori> tanımlanmıştır.
 KategoriEkle metodu ile yeni bir kategori eklemesi yapılır ve bilgi mesajı gösterir.
 TumStokListele metoduyla ise tüm kategoriler ve içinde bulunan ürünler listelenir.
 
+<img width="693" height="673" alt="stokyonetimi" src="https://github.com/user-attachments/assets/894c6f98-17d5-47c3-88d8-6d69b085e01a" />
+
+
 🟡 # Program.cs;
 StokYonetimi stok = new StokIslemleri(); ile nesne oluşturuldu.
 Kategori kirtasiyeKategori = new Kategori(1, "Kırtasiye"); ile Kırtasiye adında bir kategori oluşturuldu.
