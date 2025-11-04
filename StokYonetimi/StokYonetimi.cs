@@ -18,5 +18,24 @@ namespace StokYonetimi
             Kategoriler.Add(kategori);
             Console.WriteLine(kategori.Ad + "kategorsisi eklendi.");
         }
+        public void TumStokListele()
+        {
+            Console.WriteLine("\n Tüm Ürünler");
+            foreach (var kategori in Kategoriler)
+            {
+                Console.WriteLine("\nKategori: " + kategori.Ad);
+                if (kategori.Urunler.Count ==0)
+                {
+                    Console.WriteLine("Kategoride ürün bulunamadı");
+                }
+                else
+                {
+                    foreach (Urun urun in  kategori.Urunler)
+                    {
+                        Console.WriteLine(urun.ToString());
+                    }
+                }
+            }
+        }
     }
 }
