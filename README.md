@@ -14,6 +14,9 @@ Id, Ad ve List<Urun> Urunler propertyleri oluşturulmuştur.
 UrunEkle metodu ürünü kategoriye ekler.
 ToString metodu ise kategori bilgisini ekrana yazdırır.
 
+<img width="806" height="635" alt="kategori" src="https://github.com/user-attachments/assets/3ef0840b-c2a9-447f-816d-29e62e2e7ca0" />
+
+
 🟢 # StokYonetimi.cs;
 Birden fazla kategori ekleyebilmek için List<Kategori> tanımlanmıştır.
 KategoriEkle metodu ile yeni bir kategori eklemesi yapılır ve bilgi mesajı gösterir.
