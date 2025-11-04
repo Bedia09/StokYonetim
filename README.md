@@ -33,4 +33,7 @@ Kırtasiye kategorisi ise stok sistemine eklendi.
 TumStokListele metoduyla kategori ve ürünlerin listelenmesi sağlandı.
 StokGuncelle metodu kullanılarak kalem 5 azaltıldı.
 
+<img width="623" height="520" alt="program" src="https://github.com/user-attachments/assets/a9aed71c-65ff-4863-abfe-def71c4714f3" />
+
+
 
