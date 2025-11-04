@@ -37,7 +37,7 @@ namespace StokYonetimi
             if (StokMiktari+miktar<0)
                 Console.WriteLine("Yetersiz stok");
             else
-                StokMiktari = miktar;
+                StokMiktari += miktar;
         }
         public override string ToString()
         {
